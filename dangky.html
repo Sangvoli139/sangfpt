@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>27-PS23136-Võ Nguyễn Minh Sang-Lab10</title>
+</head>
+<style>
+    body{
+        background-image: url(sanpham/logo-con-gau-15.jpg);
+        background-repeat: no-repeat;
+        margin: 5px auto;
+        padding-left: 10px;
+        width: 1000px;
+    }
+    form{
+        position: absolute;
+        top: 100px;
+    }
+    .form-button{
+     padding:8px 30px;
+     outline:none;
+     border:none;
+     border-radius:20px;
+     font-weight:bold;
+     background-color:white;
+     color:orangered;
+     box-shadow:inset 0 0 20px blue;
+}
+.form-button:hover{
+     color:blue;
+     box-shadow:inset 0 0 20px orangered;
+}
+.form-button:disabled{
+     color:darkgray;
+     box-shadow:inset 0 0 20px gray;
+}
+.number{
+    border-radius: 5px;
+}
+.bogoc{
+    border-radius: 5px;
+}
+fieldset{
+    width: 300px;
+}
+.canle{
+    color:red;
+    float: left;
+}
+.dai{
+    width: 300px;
+}
+.maulog{
+        color: red;
+        text-decoration: none;
+        font-variant: small-caps;
+}
+</style>
+<body>
+    <div class="sang" >
+
+        <form action="">
+            <div>
+                <label class="canle" for="" >HỌ VÀ TÊN:</label><br>
+                <input  type="text" class="bogoc";>
+            </div>
+            <div class="khung">
+                <fieldset >
+                    <legend class="canle"> Giới tính:</legend>
+                    <input class="canle" type="radio"><div class="canle">Nam</div>
+                    <input class="canle" type="radio"><div class="canle">Nữ</div>
+                </fieldset>
+            </div>
+            <div >
+                <label class="canle" for="">NGÀY SINH:</label><br>
+                <input type="date"class="bogoc">
+            </div>
+            <div class="form-group">
+                <div style="color:greenyellow;" >User Name</div>
+                <input type="text" name="USERNAME" >
+                <div style="color:greenyellow;">Password</div>
+                <input type="password" name="password">
+                <div style="color:greenyellow;">Nhập lại Password</div>
+                <input type="password" name="password">
+            </div>
+            <fieldset class="khung">
+                <legend class="canle"> BẠN QUAN TÂM ĐẾN HÃNG NÀO ?</legend><br>
+                <input class="canle" type="checkbox"><div class="canle" >ASUS</div>
+                <input class="canle" type="checkbox"><div class="canle">MSI</div>
+                <input class="canle" type="checkbox"><div class="canle">AORUS</div>
+                <input class="canle" type="checkbox"><div class="canle">QUADRO</div>
+            </fieldset>
+            <button class="form-button ">Đăng ký</button>
+            <button class="form-button" type="reset">Nhập lại</button>
+            <a class="maulog" href="dangnhap.html">Đăng Nhập</a>
+        </form>
+    </div>
+</body>
+</html>

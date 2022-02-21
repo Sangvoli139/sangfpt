@@ -1,0 +1,145 @@
+html{
+    height: 100%;
+}
+h1{
+    position: absolute;
+    left: 10px;
+    color: blue;
+}
+h2{
+    padding: 10px;
+}
+.mauchu{
+    color: black;
+}
+.dau{
+    width: 100%;
+    min-height: 200px;
+    height: 100px;
+    background-color: blue;
+    background-image: url(273830244_4889219314507503_4728600237255630680_n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu{
+    height: 65px;
+    width: 100%;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+nav>ul.menu>li{
+    float: left;
+    margin: 0 5px;
+}
+nav>ul.menu>li>a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: black;
+}
+nav>ul.menu>li:hover>.menucon{
+    display: block;
+}
+.menucon{
+    background-image: url(sanpham/logo-con-gau-15.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0 5px;
+    background-color: white;
+    position: absolute;
+    width: 270px;
+    height: auto;
+    display: none;
+    list-style-type: none;
+    border: 1px solid black;
+}
+.menucon>li>a{
+    text-align: left;
+}
+.avata{
+    float: left;
+}
+.top-right{
+    position:absolute;
+    top: 0px;
+    right:10px;
+    padding-left: 10px;
+    display:inline-block;
+}
+.float-left{
+    float:left;  
+}
+.ngang{
+    color: red;
+    display:inline-block;
+    
+}
+.ngang>a{
+    font-variant: small-caps;
+    color: blue;
+    text-decoration: none;
+}
+nav>ul ul>li>a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: orange;
+}
+nav>ul ul>li>a:hover{
+    color: blue;
+}
+input{
+
+    width: 750px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+}
+.sanpham{
+    width: 80%;
+    height: 1400px;
+    background-color: white;
+    float: left;
+}
+.quangcao{
+    width: 20%;
+    height: 650px;
+    float: left; 
+    /* position:fixed;
+    top: 250px;
+    right: 0px;
+    bottom: 5px; */
+}
+/* .chay{
+    width: 20%;
+    height: ;
+} */
+footer{
+    clear: both;
+    width: 1000px auto;
+    height: 150px;
+    background-color: aqua;
+    text-align: center;
+}
+.video{
+    width: 100%;
+    height: 50%;
+}
+.chat{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.giohang{
+    position: absolute;
+    right: 5px;
+}

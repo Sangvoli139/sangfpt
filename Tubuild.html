@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main class="build-pc">
+        <div class="container" style="background: white; padding: 20px;">
+            <div class="buildpc-banner-container mb-4">
+                <div class="owl-carousel owl-theme custom-dots" id="js-banner-buildpc">
+                     <a href="/ad.php?id=1805" target="_blank" rel="nofollow"></a> 
+                </div>
+            </div>
+    
+            <div class="clear"></div>
+            <div class="build-pc_content" style="margin-top: 0;">
+                <h3 style="color: #333; border: none; float: left; margin: 5px 0 15px 0px;">Xây dựng máy tính</h3>
+                <ul class="list-btn-action" style="margin: 0; padding: 0; float: right; border: none;">
+                    <li style="width: auto;">
+                        <span onclick="openPopupRebuild()" style="padding: 0 20px;">Làm mới <i class="fa fa-undo"></i></span>
+                    </li>
+                </ul>
+    
+                <div class="clear"></div>
+    
+                <ul class="list-btn-action list-btn-action-new" style="margin-top: 0; float: left; border: none;">
+                    <li style="width: auto;" class="active"><span onclick="showBuildId(1);changeTab(this);" style="padding: 0 20px;">Cấu hình 1</span></li>
+                    <li style="width: auto;"><span onclick="showBuildId(2);changeTab(this);" style="padding: 0 20px;">Cấu hình 2</span></li>
+                    <li style="width: auto;"><span onclick="showBuildId(3);changeTab(this);" style="padding: 0 20px;">Cấu hình 3</span></li>
+                    <li style="width: auto;"><span onclick="showBuildId(4);changeTab(this);" style="padding: 0 20px;">Cấu hình 4</span></li>
+                    <li style="width: auto;"><span onclick="showBuildId(5);changeTab(this);" style="padding: 0 20px;">Cấu hình 5</span></li>
+                </ul>
+                
+                <div class="clear"></div>
+                <hr color="#ddd">
+                <p style="float: left; margin: 15px 0;">Vui lòng chọn linh kiện bạn cần để xây dựng cấu hình máy tính riêng cho bạn</p>
+                <p style="float: right; font-size: 18px; color: #d00; margin-top: 10px;">Chi phí dự tính: <span class="js-config-summary"><span class="total-price-config">0 đ</span><p> </p></span></p>
+    
+                <div class="clear"></div>
+                <div class="list-drive" id="js-buildpc-layout"><div class="item-drive"><br>
+                                <span class="d-name">1. Bộ vi xử lý</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1025" data-info="{&quot;id&quot;:1025,&quot;name&quot;:&quot;Bộ vi xử lý&quot;}"><i class="fa fa-plus"></i> Chọn Bộ vi xử lý</span>
+                                    <div id="js-selected-item-1025"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">2. Bo mạch chủ</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1024" data-info="{&quot;id&quot;:1024,&quot;name&quot;:&quot;Bo mạch chủ&quot;}"><i class="fa fa-plus"></i> Chọn Bo mạch chủ</span>
+                                    <div id="js-selected-item-1024"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">3. RAM</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1234" data-info="{&quot;id&quot;:1234,&quot;name&quot;:&quot;RAM&quot;}"><i class="fa fa-plus"></i> Chọn RAM</span>
+                                    <div id="js-selected-item-1234"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">4. HDD</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1047" data-info="{&quot;id&quot;:1047,&quot;name&quot;:&quot;HDD&quot;}"><i class="fa fa-plus"></i> Chọn HDD</span>
+                                    <div id="js-selected-item-1047"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">5. SSD</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1030" data-info="{&quot;id&quot;:1030,&quot;name&quot;:&quot;SSD&quot;}"><i class="fa fa-plus"></i> Chọn SSD</span>
+                                    <div id="js-selected-item-1030"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">6. VGA</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1155" data-info="{&quot;id&quot;:1155,&quot;name&quot;:&quot;VGA&quot;}"><i class="fa fa-plus"></i> Chọn VGA</span>
+                                    <div id="js-selected-item-1155"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">7. Nguồn</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1051" data-info="{&quot;id&quot;:1051,&quot;name&quot;:&quot;Nguồn&quot;}"><i class="fa fa-plus"></i> Chọn Nguồn</span>
+                                    <div id="js-selected-item-1051"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">8. Vỏ Case</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1050" data-info="{&quot;id&quot;:1050,&quot;name&quot;:&quot;Vỏ Case&quot;}"><i class="fa fa-plus"></i> Chọn Vỏ Case</span>
+                                    <div id="js-selected-item-1050"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">9. Monitor</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1052" data-info="{&quot;id&quot;:1052,&quot;name&quot;:&quot;Monitor&quot;}"><i class="fa fa-plus"></i> Chọn Monitor</span>
+                                    <div id="js-selected-item-1052"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">10. Monitor bổ sung</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1692" data-info="{&quot;id&quot;:1692,&quot;name&quot;:&quot;Monitor bổ sung&quot;}"><i class="fa fa-plus"></i> Chọn Monitor bổ sung</span>
+                                    <div id="js-selected-item-1692"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">11. Bộ bàn phím chuột</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1292" data-info="{&quot;id&quot;:1292,&quot;name&quot;:&quot;Bộ bàn phím chuột&quot;}"><i class="fa fa-plus"></i> Chọn Bộ bàn phím chuột</span>
+                                    <div id="js-selected-item-1292"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">12. Bàn phím</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1027" data-info="{&quot;id&quot;:1027,&quot;name&quot;:&quot;Bàn phím&quot;}"><i class="fa fa-plus"></i> Chọn Bàn phím</span>
+                                    <div id="js-selected-item-1027"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">13. Chuột</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1291" data-info="{&quot;id&quot;:1291,&quot;name&quot;:&quot;Chuột&quot;}"><i class="fa fa-plus"></i> Chọn Chuột</span>
+                                    <div id="js-selected-item-1291"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">14. Loa</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1042" data-info="{&quot;id&quot;:1042,&quot;name&quot;:&quot;Loa&quot;}"><i class="fa fa-plus"></i> Chọn Loa</span>
+                                    <div id="js-selected-item-1042"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">15. Tản nhiệt nước All in One</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1390" data-info="{&quot;id&quot;:1390,&quot;name&quot;:&quot;Tản nhiệt nước All in One&quot;}"><i class="fa fa-plus"></i> Chọn Tản nhiệt nước All in One</span>
+                                    <div id="js-selected-item-1390"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">16. Tản nhiệt nước Custom</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1389" data-info="{&quot;id&quot;:1389,&quot;name&quot;:&quot;Tản nhiệt nước Custom&quot;}"><i class="fa fa-plus"></i> Chọn Tản nhiệt nước Custom</span>
+                                    <div id="js-selected-item-1389"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">17. Tản nhiệt khí - Aircooling</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1392" data-info="{&quot;id&quot;:1392,&quot;name&quot;:&quot;Tản nhiệt khí - Aircooling&quot;}"><i class="fa fa-plus"></i> Chọn Tản nhiệt khí - Aircooling</span>
+                                    <div id="js-selected-item-1392"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">18. Quạt tản nhiệt</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1519" data-info="{&quot;id&quot;:1519,&quot;name&quot;:&quot;Quạt tản nhiệt&quot;}"><i class="fa fa-plus"></i> Chọn Quạt tản nhiệt</span>
+                                    <div id="js-selected-item-1519"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">19. Windows bản quyền</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1101" data-info="{&quot;id&quot;:1101,&quot;name&quot;:&quot;Windows bản quyền&quot;}"><i class="fa fa-plus"></i> Chọn Windows bản quyền</span>
+                                    <div id="js-selected-item-1101"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">20. Chọn tai nghe</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1258" data-info="{&quot;id&quot;:1258,&quot;name&quot;:&quot;Chọn tai nghe&quot;}"><i class="fa fa-plus"></i> Chọn Chọn tai nghe</span>
+                                    <div id="js-selected-item-1258"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">21. Vô lăng chơi game</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1261" data-info="{&quot;id&quot;:1261,&quot;name&quot;:&quot;Vô lăng chơi game&quot;}"><i class="fa fa-plus"></i> Chọn Vô lăng chơi game</span>
+                                    <div id="js-selected-item-1261"></div>
+                                </div>
+                            </div><div class="item-drive">
+                                <span class="d-name">22. Tay cầm chơi game</span>
+                                <div class="drive-checked">
+                                    <span class="show-popup_select span-last open-selection" id="js-category-info-1594" data-info="{&quot;id&quot;:1594,&quot;name&quot;:&quot;Tay cầm chơi game&quot;}"><i class="fa fa-plus"></i> Chọn Tay cầm chơi game</span>
+                                    <div id="js-selected-item-1594"></div>
+                                </div>
+                            </div></div>
+                <div class="clear"></div>
+                <p style="float: right; font-size: 18px; color: #d00; margin-top: 10px;">Chi phí dự tính: <span class="js-config-summary"><span class="total-price-config">0 đ</span><p> </p></span></p>
+                <div class="clear"></div>
+                <ul class="list-btn-action" id="js-buildpc-action" style="margin-top: 10px;">
+                    <li>
+                        <span data-action="save">lưu cấu hình <i class="fa fa-save"></i></span>
+                    </li>
+                    <li>
+                        <span data-action="create-image">tải ảnh cấu hình <i class="fa fa-image"></i></span>
+                    </li>
+                    <li>
+                        <span data-action="share">chia sẻ cấu hình <i class="fa fa-share"></i></span>
+                    </li>
+                    <li style="float: right; margin: 0; padding: 0;">
+                        <span data-action="add-cart">Thêm vào giỏ hàng <i class="fa fa-cart-plus"></i></span>
+                    </li>
+                    <li style="float: right;">
+                        <span data-action="view">Xem &amp; In <i class="fa fa-picture-o"></i></span>
+                    </li>
+                    <li style="float: right;">
+                        <span data-action="download-excel">tải file excel cấu hình <i class="fa fa-file-excel"></i></span>
+                    </li>
+                </ul>
+            </div>
+    
+            <div id="js-modal-popup"></div>
+        </div>
+    </main>
+    <div id="popup-save_config" style="display: none;">
+    
+        <div class="content-popup">
+            <p style="font-size: 15px;">Quý khách vui lòng <a href="/dang-nhap?return_url=/buildpc" style="font-size: 15px; color: blue;">đăng nhập</a> để sử dụng chức năng này</p>
+        </div>
+        
+    </div>
+    <div id="popup-rebuild_config" style="display: none; text-align: center;">
+        <i class="fa fa-exclamation-circle" style="font-size: 40px; color: #ccc;"></i>
+        <h2>LÀM MỚI</h2>
+        <p>Cảnh báo: Toàn bộ linh kiện của bộ PC hiện tại sẽ bị xóa đi</p>
+        <button class="btn btn-red" style="background: #eee; color: #333; border: solid 1px #ddd;" onclick="$.fancybox.close();">HỦY</button>
+        <button class="btn btn-red" onclick="reBuild();">XÁC NHẬN</button>
+    </div>
+    <div id="opps" style="display: none; text-align: center; width: 300px;">
+        <i class="fa fa-exclamation-circle" style="font-size: 40px; color: #ccc;"></i>
+        <h2>OPPS...</h2>
+        <p>Bạn chưa chọn sản phẩm nào</p>
+        <button class="btn btn-red" onclick="$.fancybox.close();">OK</button>
+    </div>
+    <div id="popup-share_config" style="display: none;">
+        <div class="content-popup" style="padding: 0;">
+            <form>
+                <h3 style="border-bottom: solid 1px #ddd; padding-bottom: 5px; margin-bottom: 10px; margin-top: 0;">Chia sẻ qua Email</h3>
+                <table width="100%" class="tbl-common">
+                    <tbody>
+                        <tr>
+                            <td><b>Họ tên</b></td>
+                            <td><input type="text" size="50" id="send_friend_from_name" class="inputText" autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Email người gửi <span class="red">(*)</span></b>
+                            </td>
+                            <td><input type="text" size="50" id="send_friend_from_email" class="inputText" autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Email người nhận <span class="red">(*)</span></b>
+                            </td>
+                            <td><input type="text" size="50" id="send_friend_to_email" class="inputText" autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td><b>CC Email</b></td>
+                            <td><input type="text" size="50" id="send_cc_email" class="inputText" autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Nội dung <span class="red">(*)</span></b>
+                            </td>
+                            <td><textarea rows="8" id="send_friend_message" style="width: 100%; padding: 5px;"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div id="send-friend-status"></div>
+                                <input type="button" class="btn btn-red" value="Gửi email" onclick="sendEmailFriend()">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div style="text-align: center;">
+                    <h3 style="border-top: solid 1px #ddd; padding-top: 10px;">Chia sẻ qua Facebook:</h3>
+                    <a href="javascript:void(0)" onclick="shareFB()" target="blank"> <img src="/template/anphat_2020v2/images/button_share_fb.png" alt="" style="width: 200px;"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
