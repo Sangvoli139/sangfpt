@@ -8,12 +8,18 @@
 </head>
 <style>
     body{
+       margin: 0px auto;
+       padding: 0px;
+    }
+    .nen{
+        padding: 100px;
         background-image: url(sanpham/logo-con-gau-15.jpg);
         margin: 5px auto;
         padding: 10px;
         width: 1000px;
-        height: auto;
+        height: 550px;
         background-repeat: no-repeat;
+        background-size: 80%;
     }
     .giua{
         margin: auto;
@@ -40,28 +46,30 @@
     }
     .cangiua{
         position: absolute;
+        left: 450px;
         top: 150px;
-        left: 300px;
     }
 </style>
 <body>
-    <div class="cangiua">
-    <form action="">
-        
-        <div class="form-group">
-            <div>User Name</div>
-            <input type="text" name="USERNAME" ><br><br>
-            <div>Password</div>
-            <input type="password" name="password">
+    <div class="nen">
+        <div class="cangiua">
+            <form action="">
+                
+                <div class="form-group">
+                    <div>User Name</div>
+                    <input type="text" name="USERNAME" ><br><br>
+                    <div>Password</div>
+                    <input type="password" name="password">
+                </div>
+                <br>
+                <label for="">
+                    <input class="left" type="checkbox"> <div class="left"> Remember me?</div>
+                </label>
+                <br>
+                <button >Đăng nhập</button>
+                <a class="maulog" href="dangky.html">Đăng Ký</a>
+            </form>
         </div>
-        <br>
-        <label for="">
-            <input class="left" type="checkbox"> <div class="left"> Remember me?</div>
-        </label>
-        <br>
-        <button >Đăng nhập</button>
-        <a class="maulog" href="dangky.html">Đăng Ký</a>
-    </form>
     </div>
 </body>
 </html>

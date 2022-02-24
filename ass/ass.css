@@ -24,7 +24,7 @@ h2{
 .menu{
     height: 65px;
     width: 100%;
-    background-color:white;
+    background-color:blue;
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -126,7 +126,7 @@ input{
 footer{
     clear: both;
     width: 1000px auto;
-    height: 150px;
+    height: 360px;
     background-color: aqua;
     text-align: center;
 }
